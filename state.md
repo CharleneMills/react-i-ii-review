@@ -4,9 +4,16 @@ Answer these on your own, then compare answers as a group
 
 1.  What is state?
 
+A: Data being stored. Where data is stored on an individual component. Data you plan on manipulating.
+
 2.  Where do you set initial state?
 
+A: In the constructor function
+
+
 3.  What method do you use to update state?
+
+A: this.setState()
 
 ### Understand
 
@@ -40,6 +47,9 @@ class LeadMentor extends Component {
   }
 }
 ```
+
+A: When someone answers a question and invokes the handleClick, the questionsAnswered count displays the new numner of questions answered which will always be +1.
+
 
 ### Apply
 

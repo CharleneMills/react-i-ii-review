@@ -39,7 +39,8 @@ In the terminal, it creates a new "pre-packaged" react app called whatever you w
 
 1) Fork
 2) Clone
-3) Run npm i for any dependencies needed
+3) Navigate into that folder
+4) Run npm i for any dependencies needed
 
 vs
 
@@ -67,7 +68,11 @@ const Mentor = props => (
 export default Mentor;
 ```
 
+Its adding a class based on a condition
+
 10.  Explain how data is passed from a parent component to a child component.
+
+Props
 
 ### Apply
 
